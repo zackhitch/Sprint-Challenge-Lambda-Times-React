@@ -53,11 +53,11 @@ const SpanCC = styled.span`
   cursor: pointer;
   margin-right: 5%;
 
-  :last-child {
+  &:last-child {
     margin-right: 0;
   }
 
-  :hover {
+  &:hover {
     text-decoration: underline;
   }
 `;
